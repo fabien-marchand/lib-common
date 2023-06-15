@@ -45,3 +45,5 @@ pylint = "==2.4.4"
 [tool.poetry.dependencies]
 # Require at least Python version 3.6
 python = "^3.6"
+boto3 = "1.23.10"
+selenium = "3.14"
