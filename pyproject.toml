@@ -46,5 +46,4 @@ pylint = "==2.4.4"
 # Require at least Python version 3.6
 python = "^3.6"
 boto3 = "1.23.10"
-selenium = "4.80"
-# salut
+selenium = "4.8.0"
