@@ -36,6 +36,7 @@ driver = webdriver.Remote(command_executor=executor, desired_capabilities=webdri
 driver.get(url)
 
 driver.get_screenshot_as_file(path)
+driver.quit()
 
 print(f"Success! Your screenshot is available at {path}")
 
