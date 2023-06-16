@@ -19,12 +19,12 @@ AWS_SECRET_ACCESS_KEY = os.getenv('AWS_SECRET_ACCESS_KEY')
 S3_ENDPOINT = os.getenv('S3_ENDPOINT')
 S3_REGION = os.getenv('S3_REGION')
 S3_BUCKET = os.getenv('S3_BUCKET')
+url = os.getenv('COMMIT_URL')
 
 
 remote = "http://162.19.225.144"
 port = "4444"
 executor = f"{remote}:{port}/wd/hub"
-url = "https://portail.trela.fr"
 
 basename = "screenshot"
 suffix = datetime.datetime.now().strftime("%y%m%d_%H%M%S")
