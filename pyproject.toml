@@ -47,5 +47,3 @@ pylint = "==2.4.4"
 python = "^3.7"
 boto3 = "1.23.10"
 selenium = "4.8.0"
-# salut
-# salut
