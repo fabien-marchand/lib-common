@@ -46,21 +46,4 @@ pylint = "==2.4.4"
 # Require at least Python version 3.6
 python = "^3.6"
 boto3 = "1.23.10"
-selenium = "3.14"
-# test
-# test
-# test
-# test
-# test
-# test
-# test
-# toto
-# roland-garros
-# test1
-# patch1
-# patch2
-# branch2 git add -u
-# branch2
-# branch2
-
-salut
+selenium = "4.80"
