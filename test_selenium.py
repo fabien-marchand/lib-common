@@ -22,7 +22,7 @@ S3_BUCKET = os.getenv('S3_BUCKET')
 url = os.getenv('COMMIT_URL')
 
 
-remote = "http://162.19.225.144"
+remote = "http://selenium-hub.default.svc"
 port = "4444"
 executor = f"{remote}:{port}/wd/hub"
 
